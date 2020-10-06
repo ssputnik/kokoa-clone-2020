@@ -3,12 +3,32 @@
   justify-content: space-between;
   align-items: center;
   padding: var(--horizontal-space);
+  margin-bottom: 15px;
 }
 
 .screen-header__title {
   font-size: 32px;
   font-weight: 600;
 }
+.screen-header__icons {
+  display: flex;
+}
 .screen-header__icons span {
   margin-left: 25px;
+}
+.screen-header__icon {
+  /* display: flex; */
+  position: relative;
+}
+.screen-header__checkout {
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  left: 23px;
+  bottom: 20px;
 }
